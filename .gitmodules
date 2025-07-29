@@ -1,0 +1,6 @@
+[submodule "xar"]
+	path = xar
+	url = https://github.com/mackyle/xar.git
+[submodule "pbzx"]
+	path = pbzx
+	url = https://github.com/NiklasRosenstein/pbzx.git
