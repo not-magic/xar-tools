@@ -1,7 +1,6 @@
 # xar-tools
 
-A fixed build system to be able to compile xar and pbzx as static executables. 
-
+An updated build system (using cmake) to be able to compile pbzx and xar as static executables, because I was unable to get it functioning with the original build scripts.
 
 # Compiling (Linux)
 
