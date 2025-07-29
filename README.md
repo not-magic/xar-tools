@@ -23,4 +23,4 @@ make
 * ZLIB
 * LibLZMA
 * OpenSSL
-
+* BZip2
