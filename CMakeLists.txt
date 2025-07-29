@@ -5,6 +5,7 @@ find_package(LibXml2)
 find_package(ZLIB)
 find_package(LibLZMA)
 find_package(OpenSSL)
+find_package(BZip2)
 
 set(XAR_VERSION "1.6.1")
 set(XAR_NUMERIC_VERSION 0x01060180)
@@ -36,7 +37,7 @@ add_library(libxar STATIC
 	xar/xar/lib/util.c
 	xar/xar/lib/zxar.c
 )
-target_link_libraries(libxar PUBLIC LibXml2::LibXml2 ZLIB::ZLIB LibLZMA::LibLZMA OpenSSL::Crypto)
+target_link_libraries(libxar PUBLIC LibXml2::LibXml2 ZLIB::ZLIB LibLZMA::LibLZMA OpenSSL::Crypto BZip2::BZip2)
 target_include_directories(libxar PUBLIC xar/xar/include xar_config ${CMAKE_CURRENT_BINARY_DIR})
 
 add_executable(pbzx

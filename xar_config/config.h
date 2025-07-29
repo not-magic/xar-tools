@@ -19,7 +19,7 @@
 /* #undef HAVE_SYS_ACL_H */
 /* #undef HAVE_LIBUTIL_H */
 #define HAVE_ASPRINTF 1
-/* #undef HAVE_LIBBZ2 */
+#define HAVE_LIBBZ2 1
 #define HAVE_LIBLZMA 1
 #define HAVE_LCHOWN 1
 #define HAVE_LCHMOD 1
